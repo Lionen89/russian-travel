@@ -1,4 +1,17 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 92px;
+}
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 64px;
+    }
 }

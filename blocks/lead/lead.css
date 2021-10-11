@@ -1,4 +1,15 @@
 .lead {
     display: flex;
     flex-direction: column;
+    padding: 56px 100px 0;
+}
+@media screen and (max-width: 1279px) {
+    .lead {
+        padding: 48px 0 0;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .lead {
+        padding: 48px 0 0 0;
+    }
 }

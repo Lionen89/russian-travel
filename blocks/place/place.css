@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
-    column-gap: 48px;
-    row-gap: 40px;
+    column-gap: 40px;
+    row-gap: 48px;
     padding-top: 80px;
 }
 .place:first-child{

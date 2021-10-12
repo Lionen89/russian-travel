@@ -1,5 +1,23 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 152px repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 48px;
+    row-gap: 40px;
+    padding-top: 80px;
 }
+.place:first-child{
+    padding-top: 0;
+}
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-rows: repeat(2, auto);
+        padding-top: 73px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .place {
+        display: block;
+        padding-top: 50px;
+    }
+  }

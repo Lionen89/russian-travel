@@ -1,9 +1,10 @@
-.place__description{
-    margin: 0;
+.place__description {
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .place__description {
-      margin-top: 32px;
-    }
+  .place__description {
+    margin-top: 32px;
+    padding: 0 16px;
   }
+}

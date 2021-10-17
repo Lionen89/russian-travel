@@ -1,13 +1,20 @@
 .cover {
-    padding: 92px 48px 0 ;
+    padding: 92px 48px 0;
 }
-@media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 1079px) {
     .cover {
-        padding: 90px 0 0 0;
+        padding: 92px 0 0 0;
     }
-}
-@media screen and (max-width: 767px) {
-    .cover {
-        padding: 66px 0 0 0;
+
+    @media screen and (max-width: 1023px) {
+        .cover {
+            padding: 90px 0 0 0;
+        }
     }
-}
+
+    @media screen and (max-width: 767px) {
+        .cover {
+            padding: 66px 0 0 0;
+        }
+    }

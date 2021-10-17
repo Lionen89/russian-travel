@@ -4,3 +4,8 @@
     align-items: center;
     margin-top: 17px;
 }
+@media screen and (max-width: 767px) {
+    .header__lang-links {
+        margin-top: 11px;
+    }
+}

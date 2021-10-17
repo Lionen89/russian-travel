@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
 }
-.place__paragraph:nth-child(2){
+
+.place__paragraph:nth-child(2) {
     margin-top: 26px;
 }
 
@@ -14,7 +15,8 @@
     .place__paragraph {
         font-size: 16px;
     }
-    .place__paragraph:nth-child(2){
+
+    .place__paragraph:nth-child(2) {
         margin-top: 25px;
     }
 }
